@@ -2,7 +2,7 @@ body {
     background: rgb(187, 239, 194);
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: Arial;
+    font-family: 'Courier New', Courier, monospace;
 }
 #all-contents {
   max-width: 800px;
