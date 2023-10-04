@@ -20,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -33,7 +33,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #000000;
+    color: #638858;
 }
 
 /* main container area beneath menu */
@@ -60,4 +60,29 @@ main {
 }
 h2, h3 {
     margin: 0px;
+}
+
+.content h1 {
+    color: rgb(242, 182, 227);
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #d2d1d1;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #95cb88;
 }
