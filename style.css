@@ -1,23 +1,27 @@
 body {
     background: rgb(187, 239, 194);
-    color: rgb(242, 182, 227);
+    color: rgb(245, 139, 219);
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
+    max-width: 700px;
+    margin: auto;
 }
 #all-contents {
-  max-width: 800px;
+    max-width: 700px;
     margin: auto;
 }
 
 /* navigation menu */
 nav {
     background: rgb(180, 159, 245);
-   margin: 0 auto;
-   margin-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     padding: 10px;
     border-color: rgb(180, 159, 245);
     border-radius: 10px;
+    max-width: 700px;
 }
 h1 {
     display: flex;
@@ -45,6 +49,8 @@ main {
     border-style: solid;
     border-color: rgb(231, 238, 151);
     border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
 }
 .sidebar {
     margin-right: 25px;
