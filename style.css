@@ -1,5 +1,7 @@
 body {
     background: rgb(187, 239, 194);
+    background-image: url(https://i.pinimg.com/originals/92/34/bd/9234bdf93deb7a4641026d8d92c2a67b.jpg);
+    background-size: cover;
     color: rgb(245, 139, 219);
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
