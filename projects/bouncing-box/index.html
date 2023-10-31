@@ -9,8 +9,11 @@
 			width: 70px;
 			height: 70px;
 			background-color: rgb(241, 144, 225);
+			background-image: url(https://i.pinimg.com/originals/63/45/96/634596ffda3dae536445ecbfb16da218.jpg);
+			background-size: cover;
 			font-size: 300%;
 			text-align: center;
+			color: pink;
 			user-select: none;
 			display: block;
 			position: absolute;
@@ -19,6 +22,9 @@
 		}
 		.board{
 			height: 100vh;
+			background-image: url(https://cdn.wallpapersafari.com/98/20/4Sgw7q.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -64,7 +70,7 @@
 			// TODO 2 - Variable declarations 
 			var positionX = 0;
 			var points = 0;
-			var speed = 10;
+			var speed = 1;
 
 			
 			/* 
@@ -93,7 +99,7 @@
 				points = points + 1;
 				changeBoxText(points);
 				speed = speed + 3;
-
+				
 			};
 		})();
 	</script>
