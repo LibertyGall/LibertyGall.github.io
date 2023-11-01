@@ -84,12 +84,16 @@
 			*/
 			function update() {
 				positionX = speedX + positionX
-				if(positionX >= boardWidth) { speedX = speedX * -1}
-				if(positionX <= 0) { speedX = speedX * -1 }
+				if(positionX >= boardWidth) 
+				{ speedX = speedX * -1}
+				if(positionX <= 0) 
+				{ speedX = speedX * -1 }
 
 				positionY = speedY + positionY
-				if(positionY >= boardHeight) { speedY = speedY * -1}
-				if(positionY <= 0) { speedY = speedY * -1}
+				if(positionY >= boardHeight) 
+				{ speedY = speedY * -1}
+				if(positionY <= 0) 
+				{ speedY = speedY * -1}
 				
 				moveBoxTo(positionX, positionY)
 			};
